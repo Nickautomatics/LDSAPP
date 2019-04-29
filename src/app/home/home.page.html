@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      LDS APP
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+  <h2>Welcome to LDS APP</h2>
+
+  <ion-item>
+    <ion-label>Username</ion-label>
+    <ion-input type="text" [(ngModel)]="username" ></ion-input>
+  </ion-item>
+
+  <ion-item>
+      <ion-label>Password</ion-label>
+      <ion-input type="password" [(ngModel)]="password" ></ion-input>
+    </ion-item>
+
+  <ion-button color="primary" (click)="login()">Login</ion-button>
+</ion-content>
